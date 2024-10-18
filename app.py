@@ -11,7 +11,6 @@ import plotly.graph_objects as go
 import nbformat
 import re
 import dash
-import psycopg2
 import gunicorn
 from dash import dcc, html
 from dash.dependencies import Input, Output, State
