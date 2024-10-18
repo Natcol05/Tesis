@@ -14,13 +14,12 @@ import dash
 import psycopg2
 from dash import dcc, html
 from dash.dependencies import Input, Output, State
-app = dash.Dash(__name__, external_stylesheets=[
-    'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'
-])
 
 app = dash.Dash(__name__, external_stylesheets=[
     'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'
 ])
+
+server = app.server
 
 # Datos de ejemplo para las gráficas
 data = {
