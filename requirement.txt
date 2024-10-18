@@ -1,0 +1,8 @@
+pandas
+datetime
+numpy
+seaborn
+scipy==1.10.1
+matplotlib
+nbformat
+dash
