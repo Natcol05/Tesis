@@ -2,7 +2,7 @@ import pandas as pd
 import datetime as dt 
 import numpy as np 
 import unicodedata
-import plotly as px
+import plotly.express as px
 import plotly.graph_objects as go
 import re
 import dash
