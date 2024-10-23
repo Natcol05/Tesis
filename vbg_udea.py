@@ -2,7 +2,6 @@ import pandas as pd
 import datetime as dt 
 import numpy as np 
 import unicodedata
-import matplotlib.pyplot as plt
 import plotly as px
 import plotly.graph_objects as go
 import re
