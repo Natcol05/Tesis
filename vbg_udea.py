@@ -1,7 +1,6 @@
 import pandas as pd
 import datetime as dt 
-import numpy as np  
-import scipy as sp 
+import numpy as np 
 import unicodedata
 import matplotlib.pyplot as plt
 import plotly as px
